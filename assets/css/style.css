@@ -126,6 +126,11 @@ a:hover {
   vertical-align: middle;
 }
 
+.xyCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*--/ Sections /--*/
 .sect-4 {
   padding: 4rem 0;
@@ -947,6 +952,11 @@ a:hover {
   display: block;
 }
 
+.work-img:hover .card-img-overlay {
+  transition: 0.3s;
+  background-color: rgba(0,0,0,0.5);
+}
+
 .project-img {
   position: relative;
 }
@@ -957,6 +967,11 @@ a:hover {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+}
+
+.project-img:hover .card-img-overlay {
+  transition: 0.3s;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .work-content {
