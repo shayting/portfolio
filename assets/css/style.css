@@ -425,6 +425,10 @@ a:hover {
   border-radius: 0.3rem;
 }
 
+.boxBorder{
+  border-radius: 6px;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -854,7 +858,7 @@ a:hover {
 .skills-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+  border-radius: 6px;
   margin-bottom: 3rem;
   text-align: center;
   height: 300px;
@@ -927,6 +931,7 @@ a:hover {
   background-color: #fff;
   height: 450px;
   position: relative;
+  border-radius: 6px;
 }
 
 .project-box {
@@ -945,9 +950,11 @@ a:hover {
   display: block;
   overflow: hidden;
   height: 220px;
+  border-radius: 6px 6px 0 0;
 }
 .work-img img {
   transition: all 1s;
+  border-radius: 6px 6px 0 0;
 }
 
 .goBtn {
@@ -1193,7 +1200,7 @@ a:hover {
   padding: 0 15px 5px;
   overflow: hidden;
   background-color: #9bc7b3;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 .card-blog .card-category .category {
   color: #fff;
